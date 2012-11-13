@@ -57,5 +57,3 @@ via email is fine:
     art@torproject.org
 
 
-
-
