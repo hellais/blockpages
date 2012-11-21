@@ -20,7 +20,7 @@ This should work very easily on Mac OS X and Linux.
 Open a terminal (on Mac OS X you need to go to Application -> Utilities ->
 Terminal.app) and type:
 
-    URL=http://the-site-you-know-is-blocked.com/;DST='~/Desktop/blockpage.log';echo $SITE >> $DST;curl -kis $SITE >> $DST
+    URL=http://the-site-you-know-is-blocked.com/;DST=~/Desktop/blockpage.log;echo $URL >> $DST;curl -kis $SITE >> $DST
 
 You will now have on your desktop the file we are interested in.
 
