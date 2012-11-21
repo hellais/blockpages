@@ -40,7 +40,7 @@ Install ooniprobe following this guide:
 
 And then run the url_lists test with:
 
-    ./bin/ooniprobe nettests/core/url_list.py -u http://google.com/
+    ./bin/ooniprobe nettests/core/http_url_list.py -u http://the_censored_site.com
 
 ## Extra points
 
